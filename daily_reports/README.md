@@ -1,0 +1,50 @@
+# Daily Reports
+
+最近三天日报（最新在前）：
+
+# [20260521](./202605/20260521.md)
+## 📌 今日概况
+
+今日共检索候选论文 21 篇；关键词+LLM 智能匹配世界模型交叉论文 10 篇；最终纳入日报 9 篇。
+
+今日世界模型研究呈现三大趋势：一是视频生成与规划深度融合，MotiMotion和Bernini分别通过运动控制和语义规划提升生成质量；二是世界模型在自动驾驶与具身智能中走向实用化，Steins;Gate Drive和Pre-VLA聚焦安全验证与延迟解耦；三是模型效率与泛化能力成为焦点，WorldKV和ForeSplat分别从记忆压缩和优化感知训练入手，ChronoMedicalWorld则将世界模型拓展至医疗时序建模。
+
+## ✨ 今日亮点
+
+- 视频生成融合视觉推理与语义规划
+- 自动驾驶世界模型强调安全仲裁与验证
+- 世界模型向医疗时序数据建模拓展
+
+## 🗂 今日文章列表
+
+| 标题 | 作者 | 单位 | 一句话概括 | Issue |
+|---|---|---|---|---|
+| [20260521] MotiMotion: Motion-Controlled Video Generation with Visual Reasoning | Hsin-Ying Lee, Jiang Hanwen, Mei Yiqun, Shi Jing, Yang Ming-Hsuan, Shu Zhixin | University of California, Merced；Adobe Research | MotiMotion提出运动控制视频生成方法，结合视觉与因果推理实现可控生成。 | [#8](https://github.com/Tsuda14/paperclaw-output/issues/8) |
+| [20260521] Steins;Gate Drive: Semantic Safety Arbitration over Structured Futures for Latency-Decoupled LLM Planning | Qiu Anjie, Hans D. Schotten | German Research Center for Artificial Intelligence (DFKI)；University of Kaiserslautern-Landau (RPTU) | Steins;Gate Drive通过语义安全仲裁实现延迟解耦的LLM规划。 | [#9](https://github.com/Tsuda14/paperclaw-output/issues/9) |
+| [20260521] Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts | Sun Zhen, Guo Yongjian, Sun Haoran, Wang Luqiao, Lu Wei, Ji Jiachi, Ji Shengzhe, Xiong Junwu, Meng Zhijun | Beihang University；Tsinghua University；Peking University；JDT AI Infra；Zhejiang University | Pre-VLA提出运行时验证框架，确保视觉-语言-动作模型rollout的可靠性。 | [#10](https://github.com/Tsuda14/paperclaw-output/issues/10) |
+| [20260521] Bernini: Latent Semantic Planning for Video Diffusion | Team Bernini, Liu Chenchen, Chen Junyi, Li Lei, Chi Lu, Sun Mingzhen, Li Zhuoying, Fu Yi, Guo Ruoyu, Wu Yiheng, Bai Ge, Yuan Zehuan | Bytedance | Bernini利用多模态大模型进行潜在语义规划，提升视频扩散模型可控性。 | [#11](https://github.com/Tsuda14/paperclaw-output/issues/11) |
+| [20260521] Beyond Euclidean Proximity: Repairing Latent World Models with Horizon-Matched Trajectory Reachability Metrics | Li Liangyu, Wang Shengzhi, Liu Qingwen | Tongji University | Beyond Euclidean Proximity用轨迹可达性度量修复潜在世界模型。 | [#12](https://github.com/Tsuda14/paperclaw-output/issues/12) |
+| [20260521] LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model | Mei Xiaodong, Zhang Diankun, Xie Hongwei, Chen Guang, Ye Hangjun, Xu Dan | The Hong Kong University of Science and Technology；Xiaomi EV | LVDrive引入潜在视觉表征增强端到端自动驾驶模型。 | [#13](https://github.com/Tsuda14/paperclaw-output/issues/13) |
+| [20260521] ChronoMedicalWorld: A Medical World Model for Learning Patient Trajectories from Longitudinal Care Data | Wang Jiangyuan, Chen Xuyong, He Junwei, Xu Xu, Xie Shasha, Han Fuman | Beijing KidneyTec Medical Technology Co., Ltd. | ChronoMedicalWorld构建医疗世界模型学习患者纵向轨迹。 | [#14](https://github.com/Tsuda14/paperclaw-output/issues/14) |
+| [20260521] WorldKV: Efficient World Memory with World Retrieval and Compression | Yi Jung, Kim Minjae, Paul Hyunbin Cho, Jang Wooseok, Yun Sangdoo, Kim Seungryong | KAIST AI；Naver AI Lab | WorldKV通过键值缓存与检索实现高效世界记忆。 | [#15](https://github.com/Tsuda14/paperclaw-output/issues/15) |
+| [20260521] ForeSplat: Optimization-Aware Foresight for Feed-Forward 3D Gaussian Splatting | Li Yuke, Liu Weihang, Zhang Cheng, Zhang Yuefeng, Cui Jiadi, Wang Zixuan, Ding Junran, Wu Haoyu, Shi Yujiao, Yu Jingyi, Lou Xin | ShanghaiTech University；GGU Technology Co., Ltd；Stereye | ForeSplat提出优化感知的前馈3D高斯泼溅方法。 | [#16](https://github.com/Tsuda14/paperclaw-output/issues/16) |
+
+## ⚠️ 未纳入日报的匹配论文
+
+以下论文通过关键词/LLM 筛选，但在处理过程中失败未纳入日报。点击 arXiv 链接可查看原文。
+
+| 标题 | arXiv | 失败原因 |
+|------|-------|----------|
+| No Pose, No Problem in 4D: Feed-Forward Dynamic Gaussians from Unposed Multi-View Videos | [2605.22190v1](https://arxiv.org/abs/2605.22190v1) | 质检未通过: Q1 未通过质检 |
+
+
+## 🔎 观察
+
+- 世界模型正从单一生成任务向多模态规划与安全验证的复合系统演进。
+- 效率优化（记忆压缩、延迟解耦）成为世界模型落地的关键瓶颈。
+
+---
+
+Powered by OpenClaw🦞
+
+---
